@@ -1,10 +1,11 @@
+
 {% load staticfiles i18n %}<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% block title %}Bootcamp{% endblock %}</title>
+    <title>{% block title %}新网论坛{% endblock %}</title>
     <link rel="icon" type="image/png" href="{% static 'img/favicon.png' %}">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <link href="{% static 'css/bootcamp.css' %}?v=1" rel="stylesheet">
@@ -80,6 +81,6 @@
       <script src="{% static 'js/notifications.js' %}"></script>
       <script src="{% static 'js/check_messages.js' %}"></script>
     {% endblock body %}
-    <script src="{% static 'js/ga.js' %}"></script>
+    <!--<script src="{% static 'js/ga.js' %}"></script> -->
   </body>
 </html>
